@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.table{
+    align-items: center;
+}
+
+td{
+    font-size: 20px;
+    color: white;
+}
+
+#shit{
+    background-color: black;
+}
+
+/* .container{
+    overflow-x: auto;
+} */
+/* div{
+    overflow-x: ;
+} */
+
+
+.actinide{
+    background-color: rgb(231, 33, 66);
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.actinide:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.actinide:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+
+
+
+
+.lanthanide{
+    background-color: rgb(221, 80, 104);
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.lanthanide:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.lanthanide:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+
+
+/* Noble Gases */
+.nob{
+    background-color: purple;
+    border-radius: 9px;
+    /* border-radius: 9px; */
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.nob:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.nob:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+/* Alkali Metals */
+.alm{
+    background-color: red;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.alm:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.alm:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+/* Alkaline Earth Metals */
+.ale{
+    background-color: orange;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.ale:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.ale:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+
+/* Transition Metals */
+.trans{
+    background-color: rgb(221, 221, 21);
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+.trans:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.trans:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+/* halogens */
+.halo{
+    background-color: violet;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.halo:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.halo:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+
+/* Basic Metals */
+.bam{
+    background-color: green;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.bam:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.bam:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+
+/* Semi Metals */
+.sem{
+    background-color: rgb(137, 195, 214);
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.sem:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.sem:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+
+/* Non metals */
+.nom{
+    background-color: blue;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    background-position: -135px -135px, 0 0;
+    background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0.0) 50%);
+    background-size: 250% 250%, 100% 100%;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.nom:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    /* transform: translate(-50%, -50%) scale(1.03);  */
+    transform: translate(0px, -10px) scale(1.2);
+    background-position: 0 0, 0 0;
+    transition-duration: 0.3s;
+}
+
+.nom:active {
+    border-radius: 25px;
+    border-radius: 9px;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.22);
+    /* background: #64ed85;
+    box-shadow: inset 3px 3px 6px #296137, inset -3px -3px 6px #9fffd3; */
+    transform: translate(0px, -8px) scale(1.15)
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 991px)
+{
+    table, tr, td{
+        display: block;
+        width: 100%;
+    }
+}
